@@ -1,0 +1,31 @@
+<div id="layoutAuthentication">
+    <div id="layoutAuthentication_content">
+        <main>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="card shadow-lg border-0 rounded-lg mt-5">
+                            <div class="card-header text-center bg-gradient-primary text-white py-4">
+                                <h3>Welcome Back</h3>
+                                <p>Login to continue</p>
+                                <img src="img/favicon.png" alt="Logo" style="height: 80px; width: 80px; margin-top: 10px;">
+                            </div>
+                            <div class="card-body">
+                                <form id="loginForm" action="/login" method="POST">
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="username" name="username" type="text" placeholder="Masukkan Username" />
+                                        <label for="username">Username</label>
+                                    </div>
+                                    <div class="form-floating mb-3">
+                                        <input class="form-control" id="password" name="password" type="password" placeholder="Masukkan Password" />
+                                        <label for="password">Password</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100 py-2">Login</button>
+                                </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
